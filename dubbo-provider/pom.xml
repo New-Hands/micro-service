@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>cn.lstfight</groupId>
-    <artifactId>micro-service</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>micro-service</name>
-    <description>分布式demo</description>
+    <artifactId>dubbo-provider</artifactId>
+    <version>1.0</version>
+    <name>dubbo-provider</name>
+    <description>Demo project for Spring Boot</description>
 
     <properties>
         <java.version>1.8</java.version>
@@ -27,11 +27,10 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
         </dependency>
-
     </dependencies>
 
-    <!--spring jar包 打包插件-->
     <build>
         <plugins>
             <plugin>
