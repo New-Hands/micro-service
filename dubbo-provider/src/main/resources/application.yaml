@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: my-duubo-provider
+  dubbo:
+    server: true
+    application:
+      name: my-duubo-provider
+    registry:
+      address: zookeeper://120.78.89.153:2181
+      client: zkclient
+    protocol:
+      name: dubbo
+      port: 6011

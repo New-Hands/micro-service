@@ -1,0 +1,8 @@
+spring:
+  dubbo:
+    application:
+      name: my-duubo-consume
+    registry:
+      address: zookeeper://120.78.89.153:2181
+      client: zkclient
+
